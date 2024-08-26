@@ -4,8 +4,8 @@ course_advanced_dbt:
     dev:
       type: snowflake
       account: efruuit-zh04827
-      user: 'tomasertolagmailcom'          # Add your own Snowflake username
-      password: 'Codetitomodbusadaptacion139!'      # Add your own Snowflake password
+      user: ''
+      password: ''     # Add your own Snowflake password
       role: transformer
       database: dev
       warehouse: transforming
