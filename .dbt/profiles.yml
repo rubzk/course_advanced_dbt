@@ -1,0 +1,13 @@
+course_advanced_dbt:
+  target: dev
+  outputs:
+    dev:
+      type: snowflake
+      account: efruuit-zh04827
+      user: 'tomasertolagmailcom'          # Add your own Snowflake username
+      password: 'Codetitomodbusadaptacion139!'      # Add your own Snowflake password
+      role: transformer
+      database: dev
+      warehouse: transforming
+      schema: 'dbt_tomasertolagmailcom'    # Add Snowflake username, keep "dbt_" prefix
+      threads: 8
