@@ -92,7 +92,7 @@ This table contains information about the behavioral events of users while they 
 The unique identifier of the session in the Bingeflix application.
 {% enddocs %}
 
-{% docs bingeflix_column_events_created_at %}
+{% docs bingeflix_column_event_created_at %}
 When the event was logged.
 {% enddocs %}
 
