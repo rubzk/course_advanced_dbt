@@ -9,42 +9,42 @@ The unique identifier of the Bingeflix user. A user is created when...
 {% enddocs %}
 
 {% docs bingeflix_column_user_created_at %}
-When the user was created. 
+When the user was created.
 {% enddocs %}
 
-{% docs bingeflix_column_user_phone_number %} 
-The user's phone number. 
+{% docs bingeflix_column_user_phone_number %}
+The user's phone number.
 {% enddocs %}
 
-{% docs bingeflix_column_user_deleted_at %} 
-When the user's account was deleted. The value is NULL if the account has not been deleted. 
+{% docs bingeflix_column_user_deleted_at %}
+When the user's account was deleted. The value is NULL if the account has not been deleted.
 {% enddocs %}
 
-{% docs bingeflix_column_user_username %} 
+{% docs bingeflix_column_user_username %}
 The username for login to Bingeflix.
 {% enddocs %}
 
-{% docs bingeflix_column_user_name %} 
+{% docs bingeflix_column_user_name %}
 The name of the user.
 {% enddocs %}
 
-{% docs bingeflix_column_user_sex %} 
+{% docs bingeflix_column_user_sex %}
 The user's sex at birth.
 {% enddocs %}
 
-{% docs bingeflix_column_user_email %} 
+{% docs bingeflix_column_user_email %}
 The user's email address.
 {% enddocs %}
 
-{% docs bingeflix_column_user_birthdate %} 
+{% docs bingeflix_column_user_birthdate %}
 The user's birthdate.
 {% enddocs %}
 
-{% docs bingeflix_column_user_region %} 
+{% docs bingeflix_column_user_region %}
 Where the user resides (i.e. the state or province).
 {% enddocs %}
 
-{% docs bingeflix_column_user_country %} 
+{% docs bingeflix_column_user_country %}
 Where the user resides.
 {% enddocs %}
 

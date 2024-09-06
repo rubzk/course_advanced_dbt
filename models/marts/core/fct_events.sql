@@ -1,4 +1,8 @@
-{{ config(materialized='table') }}
+{{ config(
+        materialized='table',
+          tags=["daily"]
+          )
+}}
 
 SELECT
     session_id,
@@ -8,4 +12,3 @@ SELECT
     event_id
 
 FROM {{ ref('stg_bingeflix__events') }}
-

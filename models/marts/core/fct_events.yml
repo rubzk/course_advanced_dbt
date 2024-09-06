@@ -1,7 +1,5 @@
 models:
   - name: fct_events
-    config:
-      tags: p0
     description: Table containing events information
     columns:
       - name: session_id
