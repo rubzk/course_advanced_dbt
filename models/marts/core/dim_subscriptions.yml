@@ -1,7 +1,5 @@
 models:
   - name: dim_subscriptions
-    config:
-      tags: p0
     description: This model contains information about Bingeflix subscriptions.
     columns:
       - name: subscription_id

@@ -1,0 +1,24 @@
+version: 2
+
+macros:
+  - name: rolling_agg
+    description: >
+      A macro to calculate rolling aggregations (e.g., average) over a specified number of periods (default: 7). 
+      This macro allows you to define partitioning, ordering, and the aggregation function to apply.
+    arguments:
+      - name: column_name
+        description: "The column you want to apply the rolling aggregation to."
+        type: string
+      - name: partition_by
+        description: "The column(s) by which to partition the window function."
+        type: string
+      - name: order_by
+        description: "The column(s) by which to order the window function."
+        type: string
+      - name: period
+        description: "The number of periods for the rolling window (default: 7)."
+        type: integer
+      - name: agg_func
+        description: "The aggregation function to apply (default: 'avg')."
+        type: string
+

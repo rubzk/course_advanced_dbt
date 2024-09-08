@@ -10,7 +10,7 @@ max_line_length = 999
 apply_dbt_builtins = true
 profile = course_advanced_dbt
 project_dir = .
-profiles_dir = ~/.dbt
+profiles_dir = ./.dbt
 
 [sqlfluff:indentation]
 indent_unit = space
